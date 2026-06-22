@@ -27,5 +27,17 @@ npm run build    # build static export to /out
 
 ## Documentation
 
-Project planning, research, strategy, and build docs live under [`docs/`](docs/).
+Project planning, research, strategy, and build docs live under [`docs/`](docs/),
+organized into numbered subfolders. The full set is complete:
+
+- `00-project-control/` — project-brief, project-overview, do-not-invent
+- `01-research/` — source-site-analysis, full-build-list
+- `02-strategy/` — url-slug-strategy, site-architecture
+- `03-seo-aeo-geo/` — schema-plan, metadata-plan
+- `04-brand-content/` — content-style-guide
+- `05-matrices/` — services-data-plan, audience-service-matrix, location-service-matrix
+- `06-technical/` — folder-structure, nextjs-static-export, cloudflare-pages-deployment
+- `07-claude-project/` — claude-project-instructions, claude-code-handoff-prompt
+- `08-qa-launch/` — prelaunch-checklist
+
 Start with the [project brief](docs/00-project-control/project-brief.md).
